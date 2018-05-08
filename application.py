@@ -17,4 +17,4 @@ api.add_resource(OpenRiceHome, '/')
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     debug = os.environ.get('DEBUG', False)
-    app.run(host='0.0.0.0', debug=debug, port=port)
+    app.run(host='0.0.0.0', debug=debug, port=port, threaded=True)
