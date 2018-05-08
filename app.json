@@ -1,0 +1,6 @@
+{
+  "name": "OpenRice HK API",
+  "description": "An API to scrape info from OpenRice HK made with Flask (Python)",
+  "repository": "https://github.com/jeffffc/openriceapi",
+  "keywords": ["python", "flask", "api", "openrice", "hongkong", "hk"]
+}
