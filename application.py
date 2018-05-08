@@ -4,7 +4,8 @@ from openrice import OpenRiceAreas, OpenRiceSearch, OpenRiceDistricts, OpenRiceH
 import os
 
 
-app = Flask(__name__)
+application = Flask(__name__)
+app = application
 api = Api(app, catch_all_404s=True)
 
 api.add_resource(OpenRiceSearch, '/search', '/search/<string:searchtext>', endpoint='search')
